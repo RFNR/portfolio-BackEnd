@@ -1,5 +1,7 @@
 FROM openjdk:17-jdk
 
-COPY target/backend-0.0.1-SNAPSHOT.jar app.jar
+WORKDIR /app
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+COPY ./target/my-spring-boot-app.jar /app/backend-0.0.1-SNAPSHOT.jar
+
+CMD ["java", "-jar", "my-spring-boot-app.jar"]
