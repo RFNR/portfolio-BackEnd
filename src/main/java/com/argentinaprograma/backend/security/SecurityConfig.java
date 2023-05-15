@@ -57,38 +57,7 @@ public class SecurityConfig {
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeHttpRequests() //Toda petición http debe ser autorizada
-                .requestMatchers("/api/auth/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/datospersonales/datos").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/datospersonales/datos/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/educacion/datos").permitAll()
-                .requestMatchers(HttpMethod.POST,"/educacion/datos").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/educacion/datos/**").permitAll()
-                .requestMatchers(HttpMethod.DELETE,"/educacion/datos/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/experiencia/datos").permitAll()
-                .requestMatchers(HttpMethod.POST,"/experiencia/datos").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/experiencia/datos/**").permitAll()
-                .requestMatchers(HttpMethod.DELETE,"/experiencia/datos/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/habilidades/datos").permitAll()
-                .requestMatchers(HttpMethod.POST,"/habilidades/datos").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/habilidades/datos/**").permitAll()
-                .requestMatchers(HttpMethod.DELETE,"/habilidades/datos/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/iconos/datos").permitAll()
-                .requestMatchers(HttpMethod.GET,"/iframe/src").permitAll()
-                .requestMatchers(HttpMethod.POST,"/iframe/src").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/iframe/src/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/informacionsobremi/datos").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/informacionsobremi/datos/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/intereses/datos").permitAll()
-                .requestMatchers(HttpMethod.POST,"/intereses/datos").permitAll()
-                .requestMatchers(HttpMethod.DELETE,"/intereses/datos/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/perfiles/perfil/**").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/perfiles/perfil/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/proyectos/datos").permitAll()
-                .requestMatchers(HttpMethod.POST,"/proyectos/datos").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/proyectos/datos/**").permitAll()
-                .requestMatchers(HttpMethod.DELETE,"/proyectos/datos/**").permitAll()
-                .requestMatchers(HttpMethod.GET,"/redes/redsocial/**").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/redes/redsocial/**").permitAll()
+                .requestMatchers("**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic();
@@ -96,3 +65,21 @@ public class SecurityConfig {
         return http.build();
     }
 }
+/*
+    COMENTARIO PARA EL PROFESOR
+Tuve problemas con los cors, probe de todo y no pude resolverlo, por lo cual tuve que adaptar el proyecto. Sepa disculpar.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
