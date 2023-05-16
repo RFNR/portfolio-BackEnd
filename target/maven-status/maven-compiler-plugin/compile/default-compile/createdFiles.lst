@@ -32,7 +32,6 @@ com\argentinaprograma\backend\repositorio\UsuariosRepositorio.class
 com\argentinaprograma\backend\security\JwtGenerador.class
 com\argentinaprograma\backend\controladores\InteresesController.class
 com\argentinaprograma\backend\controladores\EducacionController.class
-com\argentinaprograma\backend\WebConfig.class
 com\argentinaprograma\backend\controladores\DatosPersonalesController.class
 com\argentinaprograma\backend\repositorio\ExperienciaRepositorio.class
 com\argentinaprograma\backend\repositorio\InformacionSobreMiRepositorio.class
@@ -45,6 +44,7 @@ com\argentinaprograma\backend\controladores\RedesSocialesController.class
 com\argentinaprograma\backend\dtos\DtoAuthRespuesta.class
 com\argentinaprograma\backend\security\CustomUsersDetailsService.class
 com\argentinaprograma\backend\modelo\Experiencia.class
+com\argentinaprograma\backend\BackendApplication$1.class
 com\argentinaprograma\backend\controladores\InformacionSobreMiController.class
 com\argentinaprograma\backend\dtos\DtoLogin.class
 com\argentinaprograma\backend\repositorio\FormularioRepositorio.class
