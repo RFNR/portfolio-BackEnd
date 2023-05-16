@@ -32,6 +32,7 @@ com\argentinaprograma\backend\repositorio\UsuariosRepositorio.class
 com\argentinaprograma\backend\security\JwtGenerador.class
 com\argentinaprograma\backend\controladores\InteresesController.class
 com\argentinaprograma\backend\controladores\EducacionController.class
+com\argentinaprograma\backend\WebConfig.class
 com\argentinaprograma\backend\controladores\DatosPersonalesController.class
 com\argentinaprograma\backend\repositorio\ExperienciaRepositorio.class
 com\argentinaprograma\backend\repositorio\InformacionSobreMiRepositorio.class
