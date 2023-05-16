@@ -8,7 +8,9 @@ com\argentinaprograma\backend\modelo\InformacionSobreMi.class
 com\argentinaprograma\backend\excepciones\ResourceNotFoundException.class
 com\argentinaprograma\backend\controladores\IconosController.class
 com\argentinaprograma\backend\controladores\ProyectosController.class
+com\argentinaprograma\backend\CorsConfig$1.class
 com\argentinaprograma\backend\modelo\Usuarios.class
+com\argentinaprograma\backend\CorsConfig.class
 com\argentinaprograma\backend\controladores\UsuarioControlador.class
 com\argentinaprograma\backend\controladores\ExperienciaController.class
 com\argentinaprograma\backend\controladores\RestControllerAuth.class
@@ -44,7 +46,6 @@ com\argentinaprograma\backend\controladores\RedesSocialesController.class
 com\argentinaprograma\backend\dtos\DtoAuthRespuesta.class
 com\argentinaprograma\backend\security\CustomUsersDetailsService.class
 com\argentinaprograma\backend\modelo\Experiencia.class
-com\argentinaprograma\backend\BackendApplication$1.class
 com\argentinaprograma\backend\controladores\InformacionSobreMiController.class
 com\argentinaprograma\backend\dtos\DtoLogin.class
 com\argentinaprograma\backend\repositorio\FormularioRepositorio.class
