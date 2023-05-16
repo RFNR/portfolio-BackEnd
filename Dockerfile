@@ -1,9 +1,6 @@
-FROM openjdk:17-jdk
-
-WORKDIR /app
-
-COPY ./target/my-spring-boot-app.jar /app/backend-0.0.1-SNAPSHOT.jar
-
-CMD ["java", "-jar", "my-spring-boot-app.jar"]
 
 EXPOSE 8080
+FROM amazoncorretto:17-alpine-jdk
+MAINTAINER EMR
+COPY target/backend-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java", "-jar", "/app.jar"]
