@@ -22,7 +22,7 @@ import java.util.Collections;
 
 @RestController
 @RequestMapping("/api/auth/")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
 public class RestControllerAuth {
     private AuthenticationManager authenticationManager;
     private PasswordEncoder passwordEncoder;

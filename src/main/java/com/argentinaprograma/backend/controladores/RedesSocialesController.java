@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/redes")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
 public class RedesSocialesController {
 
     @Autowired

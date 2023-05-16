@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
 public class UsuarioControlador {
     @Autowired
     private UsuariosRepositorio repositorio;

@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/iframe")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
 public class IframeController {
     @Autowired
     private IframeRepositorio repositorio;
