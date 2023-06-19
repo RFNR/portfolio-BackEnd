@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/perfiles")
-@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
+@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class PerfilesController {
 
     @Autowired

@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/datospersonales")
-@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
+@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class DatosPersonalesController {
     @Autowired
     private DatosPersonalesRepositorio repositorio;

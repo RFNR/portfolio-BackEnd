@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/formulario")
-@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
+@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class FormularioController {
     @Autowired
     private FormularioRepositorio repositorio;

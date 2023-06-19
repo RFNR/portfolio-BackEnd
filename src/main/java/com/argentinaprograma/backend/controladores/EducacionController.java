@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
+@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class EducacionController {
     @Autowired
     private EducacionRepositorio repositorio;

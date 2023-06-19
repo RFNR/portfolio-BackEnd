@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/intereses")
-@CrossOrigin(origins = "http://https://front-arg-programa.web.app/")
+@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class InteresesController {
     @Autowired
     private InteresesRepositorio repositorio;
