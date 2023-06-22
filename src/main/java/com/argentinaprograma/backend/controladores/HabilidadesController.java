@@ -13,7 +13,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/habilidades")
-@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class HabilidadesController {
     @Autowired
     private HabilidadesRepositorio repositorio;

@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/informacionsobremi")
-@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class InformacionSobreMiController {
     @Autowired
     private InformacionSobreMiRepositorio repositorio;

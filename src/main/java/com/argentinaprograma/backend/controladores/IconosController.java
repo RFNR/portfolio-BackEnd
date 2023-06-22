@@ -9,7 +9,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/iconos")
-@CrossOrigin(origins = "https://front-arg-programa.web.app/")
 public class IconosController {
     @Autowired
     private IconosRepositorio repositorio;
