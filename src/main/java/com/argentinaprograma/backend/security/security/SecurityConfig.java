@@ -53,7 +53,8 @@ public class SecurityConfig {
                             "/intereses/datos",
                             "/perfiles/perfil/1",
                             "/proyectos/datos",
-                            "redes/redsocial/1"
+                            "/redes/redsocial/1",
+                            "/login"
                     ).permitAll();
                     auth.anyRequest().authenticated();
                 })
