@@ -36,7 +36,6 @@ public class SecurityConfig {
 
         JwtAuthenticationFilter jwtAuthenticationFilter = new JwtAuthenticationFilter(jwtUtils);
         jwtAuthenticationFilter.setAuthenticationManager(authenticationManager);
-        jwtAuthenticationFilter.setFilterProcessesUrl("/login");
 
         return httpSecurity
                 .csrf(config -> config.disable())
@@ -53,8 +52,7 @@ public class SecurityConfig {
                             "/intereses/datos",
                             "/perfiles/perfil/1",
                             "/proyectos/datos",
-                            "/redes/redsocial/1",
-                            "/login"
+                            "/redes/redsocial/1"
                     ).permitAll();
                     auth.anyRequest().authenticated();
                 })
