@@ -28,7 +28,7 @@ public class BackendApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-						.allowedOrigins("*")
+						.allowedOrigins("https://portfolio-arg-program.web.app/")
 						.allowedMethods("*")
 						.allowedHeaders("*");
 			}
