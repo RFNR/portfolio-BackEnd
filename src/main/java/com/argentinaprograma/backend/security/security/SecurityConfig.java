@@ -36,13 +36,13 @@ public class SecurityConfig {
 
         JwtAuthenticationFilter jwtAuthenticationFilter = new JwtAuthenticationFilter(jwtUtils);
         jwtAuthenticationFilter.setAuthenticationManager(authenticationManager);
-        jwtAuthenticationFilter.setFilterProcessesUrl("/session");
+        jwtAuthenticationFilter.setFilterProcessesUrl("/login");
 
         return httpSecurity
                 .csrf(config -> config.disable())
                 .authorizeHttpRequests(auth -> {
                     auth.requestMatchers(
-                            "/session",
+                            "/login",
                             "/datospersonales/datos",
                             "/educacion/datos",
                             "/experiencia/datos",
